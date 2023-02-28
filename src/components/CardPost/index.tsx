@@ -1,6 +1,7 @@
 import React, { FC } from 'react';
 import { Container, ImagePost, TitlePost, DescriptionPost } from './styles';
 import Clamp from 'react-multiline-clamp';
+import { capitalize } from '../../utils/capitalized';
 
 interface PostProps {
   posts: CardPostProps;
@@ -19,10 +20,10 @@ export const CardPost: FC<PostProps> = ({ posts }) => {
     <Container key={posts.id} className="CardPost">
       <ImagePost src={posts.cover} />
       <Clamp lines={2}>
-        <TitlePost>{posts.title}</TitlePost>
+        <TitlePost>{capitalize(posts.title)}</TitlePost>
       </Clamp>
       <Clamp lines={4}>
-        <DescriptionPost>{posts.body}</DescriptionPost>
+        <DescriptionPost>{capitalize(posts.body)}</DescriptionPost>
       </Clamp>
     </Container>
   );
