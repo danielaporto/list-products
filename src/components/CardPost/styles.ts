@@ -2,9 +2,14 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   padding: 10px;
-  display: grid;
   background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   max-width: 300px;
+  transition: transform 100ms ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
 `;
 
 export const ImagePost = styled.img`

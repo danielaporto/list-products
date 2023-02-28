@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import { CardPost } from '../../components/CardPost';
 import { getAllListProducts } from '../../actions/list-all-products';
-import { Container } from './styles';
+import { Container, GridPost } from './styles';
 import './styles.ts';
 
 const Home = () => {
@@ -19,9 +19,11 @@ const Home = () => {
   return (
     <>
       <Container className="Home">
-        {posts.map((post) => (
-          <CardPost posts={post}></CardPost>
-        ))}
+        <GridPost>
+          {posts.map((post) => (
+            <CardPost posts={post}></CardPost>
+          ))}
+        </GridPost>
       </Container>
     </>
   );
