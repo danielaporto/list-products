@@ -1,15 +1,23 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import { CardPost } from '../../components/CardPost';
 import { getAllListProducts } from '../../actions/list-all-products';
-import { Container, GridPost } from './styles';
+import { Container, ContainerSkeleton, GridPost } from './styles';
 import './styles.ts';
+import { Skeleton } from '../../components/Skeleton';
 
 const Home = () => {
   const [posts, setPosts] = useState([]);
+  const [loadPosts, setLoadPosts] = useState(true);
 
   const handlePostList = useCallback(async () => {
-    const responsePostsAndPhotos = await getAllListProducts();
-    setPosts(responsePostsAndPhotos);
+    try {
+      const responsePostsAndPhotos = await getAllListProducts();
+      setPosts(responsePostsAndPhotos);
+      setLoadPosts(false);
+      return responsePostsAndPhotos;
+    } catch (err) {
+      return err;
+    }
   }, []);
 
   useEffect(() => {
@@ -20,9 +28,13 @@ const Home = () => {
     <>
       <Container className="Home">
         <GridPost>
-          {posts.map((post) => (
-            <CardPost posts={post}></CardPost>
-          ))}
+          {!loadPosts
+            ? posts.map((post) => <CardPost posts={post}></CardPost>)
+            : [...Array(20)].map((_) => (
+                <ContainerSkeleton>
+                  <Skeleton width="300px" height="474px" radius="2px" />
+                </ContainerSkeleton>
+              ))}
         </GridPost>
       </Container>
     </>
