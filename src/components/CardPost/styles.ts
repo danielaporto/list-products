@@ -6,6 +6,7 @@ export const Container = styled.div`
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   max-width: 300px;
   transition: transform 100ms ease-in-out;
+  border-radius: 2px;
 
   &:hover {
     transform: scale(1.05);
