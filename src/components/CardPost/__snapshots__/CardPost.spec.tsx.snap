@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CardPost /> should match snapshot 1`] = `
+<div
+  class="sc-bcXHqe dmXgPZ CardPost"
+>
+  <img
+    alt="Title 1"
+    class="sc-gswNZR fYcGdc"
+    src="img/img.webp"
+  />
+  <h1
+    class="sc-dkrFOg"
+    style="overflow: hidden; display: -webkit-box;"
+  >
+    Title 1
+  </h1>
+  <p
+    class="sc-hLBbgP"
+    style="overflow: hidden; display: -webkit-box;"
+  >
+    Body 1
+  </p>
+</div>
+`;
+
+exports[`<CardPost /> should render <CardPost /> 1`] = `
+<div
+  class="sc-bcXHqe dmXgPZ CardPost"
+>
+  <img
+    alt="Title 1"
+    class="sc-gswNZR fYcGdc"
+    src="img/img.webp"
+  />
+  <h1
+    class="sc-dkrFOg"
+    style="overflow: hidden; display: -webkit-box;"
+  >
+    Title 1
+  </h1>
+  <p
+    class="sc-hLBbgP"
+    style="overflow: hidden; display: -webkit-box;"
+  >
+    Body 1
+  </p>
+</div>
+`;

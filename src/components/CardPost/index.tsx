@@ -19,7 +19,7 @@ interface CardPostProps {
 export const CardPost: FC<PostProps> = ({ posts }) => {
   return (
     <Container key={posts.id} className="CardPost">
-      <ImagePost src={posts.cover ? posts.cover : NoPhoto} />
+      <ImagePost src={posts.cover ? posts.cover : NoPhoto} alt={posts.title} />
       <Clamp lines={2}>
         <TitlePost>{capitalize(posts.title)}</TitlePost>
       </Clamp>

@@ -27,11 +27,11 @@ const Home = () => {
   return (
     <>
       <Container className="Home">
-        <GridPost>
+        <GridPost className="grid-container">
           {!loadPosts
             ? posts.map((post) => <CardPost posts={post}></CardPost>)
-            : [...Array(20)].map((_) => (
-                <ContainerSkeleton>
+            : [...Array(20)].map((_, index) => (
+                <ContainerSkeleton key={index}>
                   <Skeleton width="300px" height="474px" radius="2px" />
                 </ContainerSkeleton>
               ))}

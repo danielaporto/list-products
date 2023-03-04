@@ -1,0 +1,212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> should match snapshot 1`] = `
+<div
+  class="sc-eDvSVe tULga Home"
+>
+  <div
+    class="sc-gKPRtg gPvHCf grid-container"
+  >
+    <div
+      class="sc-jSUZER SnhgF"
+    >
+      <div
+        class="sc-iBYQkv kqqXBj"
+        height="474px"
+        radius="2px"
+        width="300px"
+      />
+    </div>
+    <div
+      class="sc-jSUZER SnhgF"
+    >
+      <div
+        class="sc-iBYQkv kqqXBj"
+        height="474px"
+        radius="2px"
+        width="300px"
+      />
+    </div>
+    <div
+      class="sc-jSUZER SnhgF"
+    >
+      <div
+        class="sc-iBYQkv kqqXBj"
+        height="474px"
+        radius="2px"
+        width="300px"
+      />
+    </div>
+    <div
+      class="sc-jSUZER SnhgF"
+    >
+      <div
+        class="sc-iBYQkv kqqXBj"
+        height="474px"
+        radius="2px"
+        width="300px"
+      />
+    </div>
+    <div
+      class="sc-jSUZER SnhgF"
+    >
+      <div
+        class="sc-iBYQkv kqqXBj"
+        height="474px"
+        radius="2px"
+        width="300px"
+      />
+    </div>
+    <div
+      class="sc-jSUZER SnhgF"
+    >
+      <div
+        class="sc-iBYQkv kqqXBj"
+        height="474px"
+        radius="2px"
+        width="300px"
+      />
+    </div>
+    <div
+      class="sc-jSUZER SnhgF"
+    >
+      <div
+        class="sc-iBYQkv kqqXBj"
+        height="474px"
+        radius="2px"
+        width="300px"
+      />
+    </div>
+    <div
+      class="sc-jSUZER SnhgF"
+    >
+      <div
+        class="sc-iBYQkv kqqXBj"
+        height="474px"
+        radius="2px"
+        width="300px"
+      />
+    </div>
+    <div
+      class="sc-jSUZER SnhgF"
+    >
+      <div
+        class="sc-iBYQkv kqqXBj"
+        height="474px"
+        radius="2px"
+        width="300px"
+      />
+    </div>
+    <div
+      class="sc-jSUZER SnhgF"
+    >
+      <div
+        class="sc-iBYQkv kqqXBj"
+        height="474px"
+        radius="2px"
+        width="300px"
+      />
+    </div>
+    <div
+      class="sc-jSUZER SnhgF"
+    >
+      <div
+        class="sc-iBYQkv kqqXBj"
+        height="474px"
+        radius="2px"
+        width="300px"
+      />
+    </div>
+    <div
+      class="sc-jSUZER SnhgF"
+    >
+      <div
+        class="sc-iBYQkv kqqXBj"
+        height="474px"
+        radius="2px"
+        width="300px"
+      />
+    </div>
+    <div
+      class="sc-jSUZER SnhgF"
+    >
+      <div
+        class="sc-iBYQkv kqqXBj"
+        height="474px"
+        radius="2px"
+        width="300px"
+      />
+    </div>
+    <div
+      class="sc-jSUZER SnhgF"
+    >
+      <div
+        class="sc-iBYQkv kqqXBj"
+        height="474px"
+        radius="2px"
+        width="300px"
+      />
+    </div>
+    <div
+      class="sc-jSUZER SnhgF"
+    >
+      <div
+        class="sc-iBYQkv kqqXBj"
+        height="474px"
+        radius="2px"
+        width="300px"
+      />
+    </div>
+    <div
+      class="sc-jSUZER SnhgF"
+    >
+      <div
+        class="sc-iBYQkv kqqXBj"
+        height="474px"
+        radius="2px"
+        width="300px"
+      />
+    </div>
+    <div
+      class="sc-jSUZER SnhgF"
+    >
+      <div
+        class="sc-iBYQkv kqqXBj"
+        height="474px"
+        radius="2px"
+        width="300px"
+      />
+    </div>
+    <div
+      class="sc-jSUZER SnhgF"
+    >
+      <div
+        class="sc-iBYQkv kqqXBj"
+        height="474px"
+        radius="2px"
+        width="300px"
+      />
+    </div>
+    <div
+      class="sc-jSUZER SnhgF"
+    >
+      <div
+        class="sc-iBYQkv kqqXBj"
+        height="474px"
+        radius="2px"
+        width="300px"
+      />
+    </div>
+    <div
+      class="sc-jSUZER SnhgF"
+    >
+      <div
+        class="sc-iBYQkv kqqXBj"
+        height="474px"
+        radius="2px"
+        width="300px"
+      />
+    </div>
+  </div>
+</div>
+`;
