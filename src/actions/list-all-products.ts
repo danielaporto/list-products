@@ -7,7 +7,7 @@ export const getAllListProducts = async () => {
 
     const postFormatterJson = await posts.json();
     const photosFormatterJson = await photos.json();
-
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const postsAndPhotosData = postFormatterJson.map((post: any, index: number) => {
       return { ...post, cover: photosFormatterJson[index].url };
     });
