@@ -2,6 +2,12 @@
 
 It's a project to demonstrate knowledge in React with external data request
 
+### Preview project with Netlify
+```sh
+    # URL
+    https://master--luxury-pothos-ac4c78.netlify.app/
+```
+
 ### To clone project
 ```sh
     # https
